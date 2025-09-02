@@ -32,7 +32,7 @@ namespace AlphaStockWebAPI.Controllers
             using SqlConnection connection = new SqlConnection(_connectionString);
 
             // 1. Try to get the latest data from your DB
-            string latestDbDataCheck = @"SELECT * FROM AlphaStockSchema.TimeSeriesDaily WHERE Symbol = @Symbol AND [Date] = '2025-08-29'";
+            string latestDbDataCheck = @"SELECT * FROM AlphaStockSchema.TimeSeriesDaily WHERE Symbol = @Symbol AND [Date] = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)";
             // CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
             List<TimeSeriesDaily> dbCheckResult = (await connection.QueryAsync<TimeSeriesDaily>(latestDbDataCheck, new { Symbol = symbol })).ToList();
 

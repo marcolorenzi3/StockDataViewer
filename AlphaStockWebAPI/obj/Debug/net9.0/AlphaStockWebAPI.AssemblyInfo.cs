@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlphaStockWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7146373af5f4819f04ec7def75c33d2d7016d36f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlphaStockWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlphaStockWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

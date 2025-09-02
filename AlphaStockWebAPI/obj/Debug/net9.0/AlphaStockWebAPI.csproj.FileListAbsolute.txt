@@ -96,4 +96,5 @@ C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockData
 C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\bin\Debug\net9.0\AlphaStockdataexample.json
 C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\bin\Debug\net9.0\AlphaStockdataexample_OG.json
 C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\obj\Debug\net9.0\compressed\m0792uvp2l-9fez2k3gsj.gz
-C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\obj\Debug\net9.0\compressed\lrpvybuu4c-81wj0e5ip4.gz
+C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\obj\Debug\net9.0\AlphaStockWebAPI.sourcelink.json
+C:\Users\Marco\Documents\Training-Learning_Subjects\C#_SQL_course\AlphaStockDataSecondAttempt\AlphaStockWebAPI\obj\Debug\net9.0\compressed\lrpvybuu4c-yp6tctfpsp.gz
