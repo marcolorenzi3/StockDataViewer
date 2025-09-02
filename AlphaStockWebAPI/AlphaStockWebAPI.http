@@ -1,0 +1,6 @@
+@AlphaStockWebAPI_HostAddress = http://localhost:5047
+
+GET {{AlphaStockWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

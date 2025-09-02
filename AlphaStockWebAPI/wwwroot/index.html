@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- This is the root element of the HTML page. -->
+<html lang="en">
+<!-- This section contains metadata about the page. -->
+
+<head>
+    <!-- This specifies the character encoding for the document. -->
+    <meta charset="UTF-8">
+    <!-- This sets the viewport to make the website responsive on all devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the title that appears in the browser tab. -->
+    <title>Stock Data Viewer</title>
+    <!-- This links the external stylesheet for styling the page. -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- This is the main content of the HTML page that is visible to the user. -->
+
+<body>
+    <!-- This is the main heading of the page. -->
+    <h1>Stock Data Viewer</h1>
+    <label for="symbolInput">Stock Symbol:</label>
+    <input type="text" id="symbolInput" placeholder="e.g. IBM" />
+    <!-- This button will trigger the fetching of stock data when clicked. -->
+    <button id="fetchDataBtn">Fetch Stock Data</button>
+    <!-- This div will be used as a container for the stock data. -->
+    <div id="stockDataContainer"></div>
+    <!-- This links the external JavaScript file that contains the logic for the page. -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

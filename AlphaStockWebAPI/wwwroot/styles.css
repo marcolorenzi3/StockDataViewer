@@ -1,0 +1,74 @@
+/* This sets the base font family and background color for the entire page. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    /* This adds some padding around the content. */
+    padding: 20px;
+}
+
+/* This styles the main heading of the page. */
+h1 {
+    color: #0056b3;
+}
+
+/* This styles the button. */
+button {
+    /* This sets the background color of the button. */
+    background-color: #0056b3;
+    /* This sets the text color of the button. */
+    color: white;
+    /* This removes the default border. */
+    border: none;
+    /* This adds some padding inside the button. */
+    padding: 10px 20px;
+    /* This adds rounded corners to the button. */
+    border-radius: 5px;
+    /* This changes the cursor to a pointer when hovering over the button. */
+    cursor: pointer;
+    /* This adds some space below the button. */
+    margin-bottom: 20px;
+}
+
+/* This styles the button when the user hovers over it. */
+button:hover {
+    background-color: #004494;
+}
+
+/* This styles the container for the stock data. */
+#stockDataContainer {
+    /* This sets the background color of the container. */
+    background-color: #fff;
+    /* This adds a border to the container. */
+    border: 1px solid #ddd;
+    /* This adds some padding inside the container. */
+    padding: 20px;
+    /* This adds rounded corners to the container. */
+    border-radius: 5px;
+}
+
+/* This styles the table that will display the stock data. */
+table {
+    /* This makes the table take up the full width of its container. */
+    width: 100%;
+    /* This collapses the borders between table cells. */
+    border-collapse: collapse;
+}
+
+/* This styles the table header and table data cells. */
+th, td {
+    /* This adds a border to the cells. */
+    border: 1px solid #ddd;
+    /* This adds some padding inside the cells. */
+    padding: 8px;
+    /* This aligns the text to the left. */
+    text-align: left;
+}
+
+/* This styles the table header. */
+th {
+    /* This sets the background color of the header. */
+    background-color: #f2f2f2;
+    /* This makes the text in the header bold. */
+    font-weight: bold;
+}
