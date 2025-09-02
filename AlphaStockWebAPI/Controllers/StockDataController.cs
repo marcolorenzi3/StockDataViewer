@@ -59,7 +59,7 @@ namespace AlphaStockWebAPI.Controllers
                 }
 
                 dbResult.Reverse();
-
+                // change
                 decimal averageDbVolume = 0;
                 for (int i = 0; i < 10; i++)
                 {
